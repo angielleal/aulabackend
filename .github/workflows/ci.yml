@@ -5,6 +5,10 @@ on: [push, pull_request]
 jobs:
   review:
     runs-on: ubuntu-latest
+    env:
+      STUDENT_NAME: ${{ secrets.STUDENT_NAME }}
+      STUDENT_ID: ${{ secrets.STUDENT_ID }}
+      SERVER_URL: ${{ secrets.SERVER_URL }}
     steps:
       - uses: actions/checkout@v2
       - name: Validate
