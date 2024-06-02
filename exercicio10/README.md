@@ -1,0 +1,1 @@
+Este repositório contém os exercícios realizados durante a disciplina. Cada exercício está organizado em pastas numeradas de `exercicio01` a `exercicio10`.
